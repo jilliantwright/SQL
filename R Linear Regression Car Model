@@ -8,7 +8,6 @@ on the price of used cars.
 
 ## The car_prices dataset contains both continuous and categorical variables.
 
-
 i. The second continuous variable is mileage.
 ii.
 ```{r}
@@ -19,7 +18,6 @@ car_prices %>%
   facet_wrap(~measurment, scales = "free_x") +
   labs(title="Price Scatter Plots")
 ```
-
 
 
 ## Exercise 2
